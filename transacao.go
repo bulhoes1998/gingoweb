@@ -27,9 +27,7 @@ func (l *Transacoes) FilterById(c *gin.Context) bool {
 		id, err := strconv.Atoi(idParam)
 		// return error if the required id don't can be converted to integer type
 		if err != nil {
-			c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{
-				"error": "id must be an integer",
-			})
+			c.AbortWithStatusJSON(http.StatusBadRequest, gin.H{"error": "id must be an integer"})
 			return false
 		}
 
@@ -43,9 +41,7 @@ func (l *Transacoes) FilterById(c *gin.Context) bool {
 		}
 		// check if filteredTransactionList isn't empty
 		if len(*filteredTransactionList) == 0 {
-			c.AbortWithStatusJSON(http.StatusNotFound, gin.H{
-				"error": "transaction not found",
-			})
+			c.AbortWithStatusJSON(http.StatusNotFound, gin.H{"error": "transaction not found"})
 			return false
 		}
 
@@ -71,9 +67,7 @@ func (l *Transacoes) FilterByMoeda(c *gin.Context) bool {
 
 		// check if filteredTransactionList isn't empty
 		if len(*filteredTransactionList) == 0 {
-			c.AbortWithStatusJSON(http.StatusNotFound, gin.H{
-				"error": "transaction not found",
-			})
+			c.AbortWithStatusJSON(http.StatusNotFound, gin.H{"error": "transaction not found"})
 			return false
 		}
 

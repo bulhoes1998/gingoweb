@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "codigo": "s1dd12ad3df5fd49",
+        "moeda": "BRL",
+        "valor": 213,
+        "emissor": "id_usuario1",
+        "receptor": "id_usuario2",
+        "data": "2018-08-13T12:42:00Z"  
+    },
+    {
+        "id": 1,
+        "codigo": "s1dd12ad3df5fd49",
+        "moeda": "BRL",
+        "valor": 213,
+        "emissor": "id_usuario1",
+        "receptor": "id_usuario2",
+        "data": "2018-08-13T12:42:00Z"  
+    },
+    {
+        "id": 1,
+        "codigo": "s1dd12ad3df5fd49",
+        "moeda": "USD",
+        "valor": 213,
+        "emissor": "id_usuario1",
+        "receptor": "id_usuario2",
+        "data": "2018-08-13T12:42:00Z"  
+    },
+    {
+        "id": 2,
+        "codigo": "s1dd12ad3df5fd49",
+        "moeda": "BRL",
+        "valor": 213,
+        "emissor": "id_usuario1",
+        "receptor": "id_usuario2",
+        "data": "2018-08-13T12:42:00Z"  
+    },
+    {
+        "id": 2,
+        "codigo": "s1dd12ad3df5fd49",
+        "moeda": "USD",
+        "valor": 213,
+        "emissor": "id_usuario1",
+        "receptor": "id_usuario2",
+        "data": "2018-08-13T12:42:00Z"  
+    }
+]
